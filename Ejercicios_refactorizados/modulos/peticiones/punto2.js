@@ -1,4 +1,4 @@
-import { getPostById, getCommentByPost } from "./modules/enun2.js";
+import { getPostById, getCommentByPost } from "../modulo2.js";
 
 let resultado = await getPostById();
 let recorreArreglo = await resultado.map(async (post) => {

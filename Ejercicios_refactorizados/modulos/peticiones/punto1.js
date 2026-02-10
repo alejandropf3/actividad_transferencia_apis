@@ -1,4 +1,4 @@
-import { usuarios, postUsuarios } from './modules/enun1.js';
+import { usuarios, postUsuarios } from '../modulo1.js';
 
 usuarios()
 .then((usuario) => 
